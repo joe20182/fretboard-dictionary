@@ -1,5 +1,7 @@
 # fretboard-dictionary
 
+[demo](https://joe20182.github.io/fretboard-dictionary/#/)
+
 ## Project setup
 ```
 npm install
