@@ -50,6 +50,14 @@ export default {
     name: 'Neck',
     data() {
         return {
+            /**
+             * 0: C
+             * 1: C#
+             * 2: D
+             * 3: D#
+             * 4: E
+             * ...etc
+             */
             baseNotes: [4, 11, 7, 2, 9, 4]
         }
     },
@@ -70,7 +78,7 @@ export default {
             if (!this.key) {
                 return true;
             }
-            switch ((num - this.keyMap.indexOf(this.key)) % 12) {
+            switch (Math.abs(num - this.keyMap.indexOf(this.key)) % 12) {
                 case 0:
                 case 2:
                 case 4:
