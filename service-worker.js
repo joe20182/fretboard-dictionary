@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fretboard-dictionary/precache-manifest.1d0644b8c874fb4553b066e575741171.js"
+  "/fretboard-dictionary/precache-manifest.c2ad57f68485e762f5a0753788c4269a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fretboard-dictionary"});
